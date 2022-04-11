@@ -13,19 +13,20 @@ body{
 }
 
 .header {
-    top: 20px;
-    left: 20px;
-    right: 20px;
+    top: 1%;
+    left: 1%;
+    right: 1%;
     height: 100px;
     z-index: 2;
     text-align: center;
 }
 .mainbody {
-    margin: 20px;
+    margin-top: 1%;
+    margin-right: 1%;
     top: 114px;
-    right: 20px;
+    width: 80%;
     bottom: 64px;
-    left: 20px;
+    left: 1%;
     background: none;
 }
 .footer {
@@ -55,4 +56,21 @@ body{
 }
 .tableau{
     padding-bottom: 64px;
+}
+.headings{
+    margin-top: 1%;
+    top: 114px;
+    right: 1%;
+    width: 15%;
+    text-align: left;
+    padding: 1%;
+    overflow:auto;
+}
+.headingheading{
+    background-color: white;
+    border: 2px black;
+    border-style: solid;
+}
+.description{
+    font-weight: bold;
 }
